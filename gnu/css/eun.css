@@ -1,0 +1,128 @@
+*{ font-size: 14px;}
+#hd, #wrapper, .container, #ft{ min-width: auto;}
+#hd_wrapper{ height: auto;}
+.inner{ max-width: 1200px; margin: 0 auto;}
+
+
+.section{ min-height:50vw;}
+@media (max-width:960vw;){
+        .section{ min-height:200vw;}
+}
+
+#logo a{ width:80px}
+
+.gnb_1da{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.gnb_1dli .mbt, .gnb_1dli .mbt:before, .gnb_1dli .mbt:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgb(211, 5, 5);
+    height: 2px;
+    width: 100%;
+}
+.gnb_1dli .mbt:before{
+    margin-top: 3vw;
+}
+.gnb_1dli .mbt:after{
+    margin-top: 6vw;
+}
+section h3{
+    color:#B70000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+section p{
+    font-size: 23px;
+}
+#as > h3{
+    color:#000;
+}
+#keyword img{
+    max-height:245px;
+    height:100%;
+    opacity: 30;
+}
+#keyword .b_y{
+    border:solid 5px #fef070;
+}
+#keyword .b_g{
+    border:solid 5px #04610c;
+}
+#keyword{
+    background-image: url(/gnu/img/k_back.png);
+}
+#keyword .opac {
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+}
+#keyword .opac:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+#keyword span{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Song Myung', serif;
+    font-size: 10em;
+    color: #1C8A00;
+    top: -16%;
+    left: 29%;
+}
+#keyword .tc-y{
+    color:#fef070;
+}
+#photo img{
+    max-height:300px;
+    height:100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8));
+}
+.swiper-slide{
+    max-height:800px;
+    height:100vw;
+}
+#photo{
+    background-image: url(/gnu/img/p_back.png);
+}
+#product{
+    background-image: url(/gnu/img/pro_back.png);
+}
+#product .card{
+    text-align: center;
+}
+#product .card .a_1{
+    left: 0;
+    transform: translateX(0);
+}
+#product .card .a_2{
+    left: 20%;
+    transform: translateX(0) rotate(-16deg);
+}
+#product .card .a_3{
+    left: 35%;
+    transform: rotate(11deg);
+}
+#product .card .a_4{
+    left: 55%;
+    transform: translateX(0) rotate(-10deg);
+}
+#product .card .a_5{
+    left: 75%;
+    transform: translateX(0) rotate(11deg);
+}
+#product .pak{
+    display: inline-block;
+    width: 23.33%;
+    padding: 22px 22px 39px 22px;
+    border-radius: 20px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.8));
+}
+#product .pak img{
+    border:solid #ccc 1px;
+}
+
+#as{
+    background-image: url(/gnu/img/as_back.png);
+}
